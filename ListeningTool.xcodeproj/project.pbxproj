@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C0D78381A2D6130009466AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0D78371A2D6130009466AB /* AppDelegate.m */; };
+		5C0D783A1A2D6130009466AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0D78391A2D6130009466AB /* main.m */; };
+		5C0D783C1A2D6130009466AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C0D783B1A2D6130009466AB /* Images.xcassets */; };
+		5C0D783F1A2D6130009466AB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0D783D1A2D6130009466AB /* MainMenu.xib */; };
+		5C0D784B1A2D6130009466AB /* ListeningToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0D784A1A2D6130009466AB /* ListeningToolTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C0D78451A2D6130009466AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C0D78291A2D6130009466AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C0D78301A2D6130009466AB;
+			remoteInfo = ListeningTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C0D78311A2D6130009466AB /* ListeningTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListeningTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0D78351A2D6130009466AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C0D78361A2D6130009466AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C0D78371A2D6130009466AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C0D78391A2D6130009466AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C0D783B1A2D6130009466AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5C0D783E1A2D6130009466AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5C0D78441A2D6130009466AB /* ListeningToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListeningToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C0D78491A2D6130009466AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C0D784A1A2D6130009466AB /* ListeningToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListeningToolTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C0D782E1A2D6130009466AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C0D78411A2D6130009466AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C0D78281A2D6130009466AB = {
+			isa = PBXGroup;
+			children = (
+				5C0D78331A2D6130009466AB /* ListeningTool */,
+				5C0D78471A2D6130009466AB /* ListeningToolTests */,
+				5C0D78321A2D6130009466AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C0D78321A2D6130009466AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C0D78311A2D6130009466AB /* ListeningTool.app */,
+				5C0D78441A2D6130009466AB /* ListeningToolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C0D78331A2D6130009466AB /* ListeningTool */ = {
+			isa = PBXGroup;
+			children = (
+				5C0D78361A2D6130009466AB /* AppDelegate.h */,
+				5C0D78371A2D6130009466AB /* AppDelegate.m */,
+				5C0D783B1A2D6130009466AB /* Images.xcassets */,
+				5C0D783D1A2D6130009466AB /* MainMenu.xib */,
+				5C0D78341A2D6130009466AB /* Supporting Files */,
+			);
+			path = ListeningTool;
+			sourceTree = "<group>";
+		};
+		5C0D78341A2D6130009466AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C0D78351A2D6130009466AB /* Info.plist */,
+				5C0D78391A2D6130009466AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C0D78471A2D6130009466AB /* ListeningToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C0D784A1A2D6130009466AB /* ListeningToolTests.m */,
+				5C0D78481A2D6130009466AB /* Supporting Files */,
+			);
+			path = ListeningToolTests;
+			sourceTree = "<group>";
+		};
+		5C0D78481A2D6130009466AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C0D78491A2D6130009466AB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C0D78301A2D6130009466AB /* ListeningTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C0D784E1A2D6130009466AB /* Build configuration list for PBXNativeTarget "ListeningTool" */;
+			buildPhases = (
+				5C0D782D1A2D6130009466AB /* Sources */,
+				5C0D782E1A2D6130009466AB /* Frameworks */,
+				5C0D782F1A2D6130009466AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ListeningTool;
+			productName = ListeningTool;
+			productReference = 5C0D78311A2D6130009466AB /* ListeningTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C0D78431A2D6130009466AB /* ListeningToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C0D78511A2D6130009466AB /* Build configuration list for PBXNativeTarget "ListeningToolTests" */;
+			buildPhases = (
+				5C0D78401A2D6130009466AB /* Sources */,
+				5C0D78411A2D6130009466AB /* Frameworks */,
+				5C0D78421A2D6130009466AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C0D78461A2D6130009466AB /* PBXTargetDependency */,
+			);
+			name = ListeningToolTests;
+			productName = ListeningToolTests;
+			productReference = 5C0D78441A2D6130009466AB /* ListeningToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C0D78291A2D6130009466AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = TGD;
+				TargetAttributes = {
+					5C0D78301A2D6130009466AB = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					5C0D78431A2D6130009466AB = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 5C0D78301A2D6130009466AB;
+					};
+				};
+			};
+			buildConfigurationList = 5C0D782C1A2D6130009466AB /* Build configuration list for PBXProject "ListeningTool" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C0D78281A2D6130009466AB;
+			productRefGroup = 5C0D78321A2D6130009466AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C0D78301A2D6130009466AB /* ListeningTool */,
+				5C0D78431A2D6130009466AB /* ListeningToolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C0D782F1A2D6130009466AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0D783C1A2D6130009466AB /* Images.xcassets in Resources */,
+				5C0D783F1A2D6130009466AB /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C0D78421A2D6130009466AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C0D782D1A2D6130009466AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0D783A1A2D6130009466AB /* main.m in Sources */,
+				5C0D78381A2D6130009466AB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C0D78401A2D6130009466AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C0D784B1A2D6130009466AB /* ListeningToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C0D78461A2D6130009466AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C0D78301A2D6130009466AB /* ListeningTool */;
+			targetProxy = 5C0D78451A2D6130009466AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C0D783D1A2D6130009466AB /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C0D783E1A2D6130009466AB /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C0D784C1A2D6130009466AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5C0D784D1A2D6130009466AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5C0D784F1A2D6130009466AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ListeningTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C0D78501A2D6130009466AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = ListeningTool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C0D78521A2D6130009466AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ListeningToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListeningTool.app/Contents/MacOS/ListeningTool";
+			};
+			name = Debug;
+		};
+		5C0D78531A2D6130009466AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ListeningToolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ListeningTool.app/Contents/MacOS/ListeningTool";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C0D782C1A2D6130009466AB /* Build configuration list for PBXProject "ListeningTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C0D784C1A2D6130009466AB /* Debug */,
+				5C0D784D1A2D6130009466AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C0D784E1A2D6130009466AB /* Build configuration list for PBXNativeTarget "ListeningTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C0D784F1A2D6130009466AB /* Debug */,
+				5C0D78501A2D6130009466AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C0D78511A2D6130009466AB /* Build configuration list for PBXNativeTarget "ListeningToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C0D78521A2D6130009466AB /* Debug */,
+				5C0D78531A2D6130009466AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C0D78291A2D6130009466AB /* Project object */;
+}
