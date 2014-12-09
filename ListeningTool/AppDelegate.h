@@ -10,6 +10,19 @@
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
 
+@property (weak) IBOutlet NSTextField *labelText;
+@property (weak) IBOutlet NSTextField *labelProcess;
+@property (weak) IBOutlet NSTextField *textInput;
+@property (weak) IBOutlet NSButton *btnPaly;
+@property (weak) IBOutlet NSButton *btnNext;
+@property (weak) IBOutlet NSButton *btnPrevious;
+@property (weak) IBOutlet NSButton *btnDisplay;
+
+- (IBAction)menuOpen:(id)sender;
+- (IBAction)btnPlay:(id)sender;
+- (IBAction)btnNext:(id)sender;
+- (IBAction)btnPrevious:(id)sender;
+- (IBAction)btnDisplay:(id)sender;
 
 @end
 

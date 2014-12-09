@@ -12,6 +12,8 @@
 		5C0D783C1A2D6130009466AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C0D783B1A2D6130009466AB /* Images.xcassets */; };
 		5C0D783F1A2D6130009466AB /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C0D783D1A2D6130009466AB /* MainMenu.xib */; };
 		5C0D784B1A2D6130009466AB /* ListeningToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C0D784A1A2D6130009466AB /* ListeningToolTests.m */; };
+		5C0D78551A2D617C009466AB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C0D78541A2D617C009466AB /* AVFoundation.framework */; };
+		5CE098651A36A53F005FA45C /* Credits.html in Resources */ = {isa = PBXBuildFile; fileRef = 5CE098641A36A53F005FA45C /* Credits.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,8 @@
 		5C0D78441A2D6130009466AB /* ListeningToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListeningToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C0D78491A2D6130009466AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C0D784A1A2D6130009466AB /* ListeningToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListeningToolTests.m; sourceTree = "<group>"; };
+		5C0D78541A2D617C009466AB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5CE098641A36A53F005FA45C /* Credits.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Credits.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C0D78551A2D617C009466AB /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +63,7 @@
 		5C0D78281A2D6130009466AB = {
 			isa = PBXGroup;
 			children = (
+				5C0D78541A2D617C009466AB /* AVFoundation.framework */,
 				5C0D78331A2D6130009466AB /* ListeningTool */,
 				5C0D78471A2D6130009466AB /* ListeningToolTests */,
 				5C0D78321A2D6130009466AB /* Products */,
@@ -88,6 +94,7 @@
 		5C0D78341A2D6130009466AB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5CE098641A36A53F005FA45C /* Credits.html */,
 				5C0D78351A2D6130009466AB /* Info.plist */,
 				5C0D78391A2D6130009466AB /* main.m */,
 			);
@@ -192,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C0D783C1A2D6130009466AB /* Images.xcassets in Resources */,
+				5CE098651A36A53F005FA45C /* Credits.html in Resources */,
 				5C0D783F1A2D6130009466AB /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +406,7 @@
 				5C0D78501A2D6130009466AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C0D78511A2D6130009466AB /* Build configuration list for PBXNativeTarget "ListeningToolTests" */ = {
 			isa = XCConfigurationList;
@@ -406,6 +415,7 @@
 				5C0D78531A2D6130009466AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
