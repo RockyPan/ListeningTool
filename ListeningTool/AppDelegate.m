@@ -27,7 +27,10 @@ BOOL _display;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
-    
+    [self.btnPaly setToolTip:@"快捷键 cmd+M"];
+    [self.btnPrevious setToolTip:@"快捷键 cmd+,"];
+    [self.btnNext setToolTip:@"快捷键 cmd+."];
+    [self.btnDisplay setToolTip:@"快捷键 cmd+/"];    
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
@@ -47,7 +50,7 @@ BOOL _display;
 }
 
 - (void)openMP3File:(NSURL *)mp3Filename {
-    [self.window setTitle:[NSString stringWithFormat:@"Listen Tool - %@", mp3Filename.lastPathComponent]];
+    [self.window setTitle:[NSString stringWithFormat:@"Listening Tool - %@", mp3Filename.lastPathComponent]];
     NSURL * lrcFilename = [mp3Filename.URLByDeletingPathExtension URLByAppendingPathExtension:@"lrc"];
     NSLog(@"%@", mp3Filename);
     NSLog(@"%@", lrcFilename);

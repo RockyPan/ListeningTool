@@ -98,7 +98,7 @@
                     <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" id="35w-Tp-9Pb">
                         <rect key="frame" x="20" y="100" width="623" height="17"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
-                        <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="none" id="gX7-3l-9FY">
+                        <textFieldCell key="cell" controlSize="mini" scrollable="YES" lineBreakMode="clipping" sendsActionOnEndEditing="YES" title="请用快捷键 cmd + o 打开mp3文件。" id="gX7-3l-9FY">
                             <font key="font" metaFont="system"/>
                             <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                             <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
