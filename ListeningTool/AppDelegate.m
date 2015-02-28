@@ -30,7 +30,8 @@ BOOL _display;
     [self.btnPaly setToolTip:@"快捷键 cmd+M"];
     [self.btnPrevious setToolTip:@"快捷键 cmd+,"];
     [self.btnNext setToolTip:@"快捷键 cmd+."];
-    [self.btnDisplay setToolTip:@"快捷键 cmd+/"];    
+    [self.btnDisplay setToolTip:@"快捷键 cmd+/"];
+    [self.btnRewind setToolTip:@"快捷键 cmd+N"];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
@@ -45,6 +46,7 @@ BOOL _display;
     [self.btnPaly setEnabled:TRUE];
     [self.btnPrevious setEnabled:(_index != 1)];
     [self.btnNext setEnabled:(_index != _data.count)];
+    [self.btnRewind setEnabled:(_index != 1)];
     [self.btnDisplay setEnabled:TRUE];
     self.btnDisplay.stringValue = _display ? @"隐藏" : @"显示";
 }
@@ -156,6 +158,12 @@ BOOL _display;
         _display = FALSE;
     }
     self.btnDisplay.stringValue = _display ? @"隐藏" : @"显示";
+}
+
+- (IBAction)btnRewind:(id)sender {
+    _index = 1;
+    [self initStatus];
+    [self btnPlay:nil];
 }
 
 - (void)playDone {

@@ -17,12 +17,14 @@
 @property (weak) IBOutlet NSButton *btnNext;
 @property (weak) IBOutlet NSButton *btnPrevious;
 @property (weak) IBOutlet NSButton *btnDisplay;
+@property (weak) IBOutlet NSButton *btnRewind;
 
 - (IBAction)menuOpen:(id)sender;
 - (IBAction)btnPlay:(id)sender;
 - (IBAction)btnNext:(id)sender;
 - (IBAction)btnPrevious:(id)sender;
 - (IBAction)btnDisplay:(id)sender;
+- (IBAction)btnRewind:(id)sender;
 
 @end
 
