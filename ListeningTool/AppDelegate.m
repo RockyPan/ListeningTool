@@ -73,7 +73,8 @@ BOOL _display;
 
 - (void)loadLrc:(NSURL*)lrcFilename {
     NSError * error = nil;
-    NSString * strContent = [NSString stringWithContentsOfURL:lrcFilename encoding:NSASCIIStringEncoding error:&error];
+    NSStringEncoding * ed = 0;
+    NSString * strContent = [[NSString alloc] initWithContentsOfURL:lrcFilename usedEncoding:&ed error:&error];
     
     //PK 分行
     NSArray * content = [strContent componentsSeparatedByString:@"\n"];
@@ -89,10 +90,18 @@ BOOL _display;
     [content enumerateObjectsUsingBlock:^(NSString * item, NSUInteger idx, BOOL *stop) {
         NSDateFormatter * df = [[NSDateFormatter alloc] init];
         [df setDateFormat:@"mm:ss.SS"];
+//        df.locale = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"];
         NSDate * begin = [df dateFromString:@"00:00.00"];
         if ([item length] < 11) return;
         if (([item characterAtIndex:0] == '[') && ([item characterAtIndex:9] == ']')) {
-            NSDate * date = [df dateFromString:[item substringWithRange:NSMakeRange(1,8)]];
+//            NSDate * date = [df dateFromString:[item substringWithRange:NSMakeRange(1,8)]];
+            NSDate * date = nil;
+            NSError * error = nil;
+            NSRange range = NSMakeRange(1, 8);
+            BOOL res = [df getObjectValue:&date forString:item range:&range error:&error];
+            if (!res) {
+                NSLog(@"error: %@", error);
+            }
             NSTimeInterval interval = [date timeIntervalSinceDate:begin];
             
             [_data addObject:
