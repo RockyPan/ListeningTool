@@ -73,7 +73,7 @@ BOOL _display;
 
 - (void)loadLrc:(NSURL*)lrcFilename {
     NSError * error = nil;
-    NSStringEncoding * ed = 0;
+    NSStringEncoding ed = 0;
     NSString * strContent = [[NSString alloc] initWithContentsOfURL:lrcFilename usedEncoding:&ed error:&error];
     
     //PK 分行
@@ -90,11 +90,9 @@ BOOL _display;
     [content enumerateObjectsUsingBlock:^(NSString * item, NSUInteger idx, BOOL *stop) {
         NSDateFormatter * df = [[NSDateFormatter alloc] init];
         [df setDateFormat:@"mm:ss.SS"];
-//        df.locale = [[NSLocale alloc] initWithLocaleIdentifier:@"en_US_POSIX"];
         NSDate * begin = [df dateFromString:@"00:00.00"];
         if ([item length] < 11) return;
         if (([item characterAtIndex:0] == '[') && ([item characterAtIndex:9] == ']')) {
-//            NSDate * date = [df dateFromString:[item substringWithRange:NSMakeRange(1,8)]];
             NSDate * date = nil;
             NSError * error = nil;
             NSRange range = NSMakeRange(1, 8);
